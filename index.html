@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Dart|| E-Com Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navigation-bar">
+                <div class="logo">
+                    <img src="./images/Logo Red dart.jpg" alt="logo" height="50px" width="75px">
+                </div>
+
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Content</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="./images/cart.png" alt="cart" height="35px" width="35px" style="margin-left: 10px;">
+                <img src="./images/menu-icon-removebg-preview.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your work <br> A New Style</h1>
+                    <p>Success is'nt always about greatness. It's about consistency. Consistent <br>hard work gains
+                        Success. Greatness will come</p>
+                    <a href="#" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./images/sports-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------Cateory-------------------------- -->
+    <div class="container-2">
+        <div class="category">
+            <div class="categ-head">
+                Category
+            </div>
+            <div class="category-in">
+                <div class="col-3"><img src="./images/jacket.jpeg" alt="" width="100%"> </div>
+                <div class="col-3"><img src="./images/shoes.jpeg" alt="" width="100%"></div>
+                <div class="col-3"><img src="./images/pant.jpeg" alt="" width="100%"></div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------Featured Prodect--------------------------- -->
+    <div class="feature-bg">
+        <div class="featuree">
+            <div class="feature-head">
+                Featured Products
+            </div>
+            <div class="row la">
+                <div class="col-4">
+                    <img src="./images/dres2.jpeg" alt="" height="100%" width="100%">
+                    <h4>Flower Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>RS 999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/bracelet.jpeg" alt="">
+                    <h4>Herman Bracelet</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 399</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/shirt men.jpeg" alt="">
+                    <h4>Printed Flower T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1949</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/Shirt.jpeg" alt="">
+                    <h4>Crop Top Girls</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1449</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/shoess.jpg" alt="">
+                    <h4>White Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1549</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/skirt.jpg" alt="">
+                    <h4>Long Black Skirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1999</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/watch.jpeg" alt="">
+                    <h4>Titan 1692KM</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 3799</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="latest-bg">
+        <div class="featuree">
+            <div class="feature-head">
+                Latest Products
+            </div>
+            <div class="row la">
+                <div class="col-4">
+                    <img src="./images/rolex.jpeg" alt="" height="100%" width="100%">
+                    <h4>Golden Rolex M57368</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>RS 9999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/dress.jpeg" alt="">
+                    <h4>Black T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1199</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/stylish shoes.jpeg" alt="">
+                    <h4>Black Leather Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 3049</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/Reception dress.jpeg" alt="">
+                    <h4>Reseption Dress</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 11449</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/fabally.jpeg" alt="">
+                    <h4>Fabally</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1549</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/skirt.jpg" alt="">
+                    <h4>Long Black Skirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1999</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/one piece.jpeg" alt="">
+                    <h4>One Piece</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1799</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer-bg">
+        <div class="pre-offer">
+            <div class="offer">
+                <div class="sub-offer">
+                    <img src="./images/fitband-removebg-preview.png" alt="fitband" height="300px" width="450px">
+                </div>
+                <div class="sub-offer">
+                    <p>Exclusivly Available On Red Dart store</p>
+                    <h2>Smart Band 5</h2>
+                    <p>
+                        Mi Smart Band 5 is the latest and biggest upgrade to the Mi Band series. It comes with a large
+                        2.79cm (1.1”) AMOLED colour-display, which gives you 20% more display area than the Mi Smart
+                        Band 4. </p>
+                    <a href="#" class="btn2">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cus-review">
+        <div class="feature-head">
+            From Our Customers
+        </div>
+
+        <div class="testimonials">
+            <div class="persons"><img src="./images/person1.jpg" alt="">
+                <p>Billy Allen</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                        class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                        class="fa-solid fa-star fa-sm"></i>
+
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti debitis fuga atque nostrum,
+                    cumque deserunt ab dolor maxime velit?</p>
+            </div>
+            <div class="persons"><img src="./images/person2.jpg" alt="">
+                <p>Jasica Janes</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                        class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                        class="fa-solid fa-star fa-sm"></i>
+
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel dolorem praesentium facere adipisci
+                    inventore minus reprehenderit, enim quidem ipsam maiores.</p>
+            </div>
+            <div class="persons"><img src="./images/person3.jpg" alt="">
+                <p>Jammy Lanes</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                        class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                        class="fa-solid fa-star fa-sm"></i>
+
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel dolorem praesentium facere adipisci
+                    inventore minus reprehenderit, enim quidem ipsam maiores.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-ahead">
+      <div class="footer">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3 style="font-size: 1.3rem; text-decoration: underline;">Download Our App</h3>
+                <p>Download app for android and ios mobile phones</p>
+                <img src="./images/download.png" alt="logo" height="150px" width="350px">
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/Logo Red dart.jpg" alt="logo" height="150px" width="150px">
+                <p>Our Purpose is to Sustainably Make the pleasure and benifit of our accessories to many.</p>
+
+            </div>
+           
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c0ee13f626.js" crossorigin="anonymous"></script>
+
+    <script>
+        var menuitems=document.getElementById("menuitems");
+        menuitems.style.maxHeight="0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight=="0px"){
+                menuitems.style.maxHeight="200px"
+            }else{
+                menuitems.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
