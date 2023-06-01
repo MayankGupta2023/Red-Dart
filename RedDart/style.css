@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* Navigation Starts */
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+
+    padding: 10px 70px;
+    /* background: conic-gradient(white,red); */
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    /* background: #000; */
+}
+
+ul{
+    /* background-color: aliceblue; */
+    display: inline-block;
+}
+
+ul li a{
+    
+    color: #000;
+    text-decoration: none;
+    
+}
+
+ul li{
+    list-style-type: none;
+    /* background: yellow; */
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 1.2rem;
+}
+
+/* Nanigation Complete */
+/* Header Start */
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.col-2{
+    flex-basis: 50%;
+     min-width: 200px;
+}
+
+.col-2 img{
+max-width: 100%;
+padding: 60px 0px;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px 25px 25px;
+}
+
+.col-2 p{
+    margin: 0px 0px 0px 25px;
+}
+
+.btn{
+    display: inline-block;
+    background:#ff523b ;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 30px;
+    margin: 30px 0px 30px 25px;
+    border: 2px solid black;
+}
+
+.header{
+    /* background: radial-gradient(#ffefef,#fdc9c9); */
+    background: conic-gradient(rgb(0, 157, 255),rgb(79, 73, 241),rgb(33, 255, 33),rgb(255, 0, 123),red,yellow,rgb(0, 157, 255));
+}
+
+/* Header complete */
+/* Category Start */
+
+.container-2{
+    max-width: 1100px;
+    margin: auto;
+    
+}
+
+.categ-head{
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 50px 0px 10px 0px;
+}
+
+.category-in{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.col-3{
+    flex-basis: 33%;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.col-3 img{
+    max-width: 70%;
+    margin: auto;
+    display: table;
+}
+/* Cateogoy end */
+/* Feature start */
+
+.featuree{
+    max-width: 1250px;
+    margin: auto;
+    
+}
+
+.feature-bg{
+    background: radial-gradient(rgb(230 227 248),white,rgb(225 220 255));
+}
+
+.latest-bg{
+    background: radial-gradient(rgb(187, 242, 255),white,rgb(193, 244, 255));
+}
+
+.feature-head{
+    font-size: 2.7rem;
+    text-align: center;
+    margin: 50px 0px 10px 0px;
+}
+
+.la{
+    align-items: left;
+}
+
+.col-4{
+    min-width: 200px;
+    margin: 30px 30px;
+    transition: transform 0.5s;
+    
+}
+
+.col-4 img{
+    height: 300px;
+    width: 250px;
+
+}
+
+.col-4:hover{
+    transform: translateY(-6px);
+}
+
+.fa-sm{
+color:#ff523b;
+}
+
+/* feature end */
+/* Offer Starts */
+
+
+.pre-offer{
+    margin: auto;
+    max-width: 1000px;
+}
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 70px;
+    
+}
+
+.sub-offer{
+    flex-basis: 50%;
+    margin: 70px -10px;
+    align-items: center;
+}
+
+.offer-bg{
+    background: radial-gradient(white,#f88878);
+}
+
+.sub-offer h2{
+    font-size: 3.3rem;
+}
+
+.sub-offer p{
+    line-height: 20px;
+}
+
+
+.btn2{
+    display: inline-block;
+    background:#ff2f13 ;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 30px;
+    margin-top: 20px;
+   
+    border: 2px solid black;
+}
+
+/* offer end */
+/* testimonial starts */
+
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.persons{
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 250px;
+    transition: transform 0.5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.persons img{
+    height: 200px;
+    width: 200px;
+    display: table;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.cus-review{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.persons:hover{
+    transform: translateY(-6px);
+}
+
+
+/* testimonial ends */
+/* footer starts */
+
+.footer{
+    background-color: black;
+    color: white;
+    margin: 50px 0px;
+    
+}
+
+.footer-col-1{
+    flex-basis: 40%;
+    max-width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-col-2{
+    flex: 1;
+    max-width: 250px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.footer-col-2 img{
+    display: table;
+    margin: auto;
+}
+
+
+
+
+.footer-ahead{
+    background-color: #000;
+    padding: 10px 0px;
+    margin-top: 40px;
+    
+}
+
+.footer-col-2 p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.7rem;
+    color: rgb(123, 123, 123);
+}
+ /* footer end */
+
+ .menu-icon{
+    height: 30px;
+    width: 30px;
+    display: none;
+ }
+
+ /* media querry for menu */
+
+ @media only screen and (max-width:870px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    nav ul{
+       position: absolute;
+       right: 0px;
+       top: 70px;
+       background: #000;
+       width: 100%;
+       overflow: hidden;
+       transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        color: white;
+    }
+
+    nav ul li a{
+        color:white;
+    }
+ }
+
+ @media only screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+    .col-2 h1{
+        
+    margin: 25px 25px 25px 25px;
+    }
+
+    .col-2 p{
+
+        margin: 0px 25px 0px 25px;
+
+    }
+ }
+
+ @media (max-width:960px){
+        
+    
+    .sub-offer img{
+        height: 220px;
+        width: 400px;
+        display: table;
+        margin: auto;
+    }
+
+    .sub-offer h2{
+        font-size: 2rem;
+    }
+
+    .offer{
+        margin: 70px 10px;
+    }
+ }
+
+ @media(max-width:750px){
+
+    .offer{
+        margin: 70px 0px;
+    }
+
+    .sub-offer{
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        flex-basis: 75%;
+    }
+    .sub-offer img{
+        height: 220px;
+        width: 400px;
+        display: table;
+        margin: auto;
+    }
+ }
+
+ @media (max-width:700px){
+    .footer-col-1 img{
+        height: 110px;
+        width: 250px;
+    }
+ }
+
+ @media (max-width:400px){
+
+    .sub-offer img{
+        height: 200px;
+        width: 100%;
+        display: table;
+        margin: auto;
+    }
+
+ }
