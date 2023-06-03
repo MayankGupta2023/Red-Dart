@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Dart|| E-Com Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navigation-bar">
+                <div class="logo">
+                    <img src="./images/Logo Red dart.jpg" alt="logo" height="50px" width="75px">
+                </div>
+
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="./about_us.html">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="./account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="./cart.html"><img src="./images/cart.png" alt="cart" height="35px" width="35px" style="margin-left: 10px;"></a>
+                <img src="./images/menu-icon-removebg-preview.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <div class="cart-area">
+        <div class="cart">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./images/one piece.jpeg" alt="">
+                            <div>
+                                <p>One Piece</p>
+                                <small>Price: Rs 1549</small><br>
+                                <a href="#">Remove</a>
+                            </div>
+                        
+                        </div>
+                        
+                    </td>
+
+                    <td><input type="number" value="1"></td>
+                    <td>Rs 1549</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./images/Red top.jpeg" alt="">
+                            <div>
+                                <p>Red Top</p>
+                                <small>Price: Rs 2499</small><br>
+                                <a href="#">Remove</a>
+                            </div>
+                        
+                        </div>
+                        
+                    </td>
+
+                    <td><input type="number" value="1"></td>
+                    <td>Rs 2499</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./images/acchi ghadi.jpeg" alt="">
+                            <div>
+                                <p>Old Style</p>
+                                <small>Price: Rs 15999</small><br>
+                                <a href="#">Remove</a>
+                            </div>
+                        
+                        </div>
+                        
+                    </td>
+
+                    <td><input type="number" value="1"></td>
+                    <td>Rs 15999</td>
+                </tr>
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs 20047</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>Rs 1000</td>
+                    </tr>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs 21047</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+  
+    <div class="footer-ahead">
+      <div class="footer">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3 style="font-size: 1.3rem; text-decoration: underline;">Download Our App</h3>
+                <p>Download app for android and ios mobile phones</p>
+                <img src="./images/download.png" alt="logo" height="150px" width="350px">
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/Logo Red dart.jpg" alt="logo" height="150px" width="150px">
+                <p>Our Purpose is to Sustainably Make the pleasure and benifit of our accessories to many.</p>
+
+            </div>
+           
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c0ee13f626.js" crossorigin="anonymous"></script>
+
+    <script>
+        var menuitems=document.getElementById("menuitems");
+        menuitems.style.maxHeight="0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight=="0px"){
+                menuitems.style.maxHeight="200px"
+            }else{
+                menuitems.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+
+</html>

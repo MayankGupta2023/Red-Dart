@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products-Red Dart</title>
+
+    <link rel="stylesheet" href="product.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navigation-bar">
+                <div class="logo">
+                    <img src="./images/Logo Red dart.jpg" alt="logo" height="50px" width="75px">
+                </div>
+
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="./about_us.html">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="./account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="./cart.html"><img src="./images/cart.png" alt="cart" height="35px" width="35px" style="margin-left: 10px;"></a>
+                <img src="./images/menu-icon-removebg-preview.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+           
+        </div>
+    </div>
+
+  
+    <!-- -------------------------Featured Prodect--------------------------- -->
+    <div class="feature-bg">
+        <div class="featuree">
+            <div class="feature-head">
+                <span>Women-Section </span>
+                <select class="select">
+                    <option value="">Sort: Default</option>
+                    <option value="">Sort by Price</option>
+                    <option value="">Sort by Rating</option>
+                    <option value="">Sort by popularity</option>
+                </select>
+            </div>
+            <div class="row la">
+                <div class="col-4">
+                    <img src="./images/designer kurti lomg.jpg" alt="" height="100%" width="100%">
+                    <h4>Long Designer Kurti</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>RS 4999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/black pronted dress.jpeg" alt="">
+                    <h4>Black Spoted Skirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 2399</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/fabally.jpeg" alt="">
+                    <h4>Fabally</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/Shirt.jpeg" alt="">
+                    <h4>Crop Top Girls</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1449</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/one piece.jpeg" alt="">
+                    <h4>One-Piexe</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1549</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/skirt.jpg" alt="">
+                    <h4>Long Black Skirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 1999</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/very long kurti.jpeg" alt="">
+                    <h4>Long Round Kurti</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 3799</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/Red top.jpeg" alt="">
+                    <h4>Red Top</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 2499</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="pages">
+                <div class="page">1</div>
+                <div class="page">2</div>
+                <div class="page">3</div>
+                <div class="page">4</div>
+                <div class="page">&#8594;</div>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <div class="latest-bg">
+        <div class="featuree">
+            <div class="feature-head">
+                <span>Footwears </span>
+                <select class="select">
+                    <option value="">Sort: Default</option>
+                    <option value="">Sort by Price</option>
+                    <option value="">Sort by Rating</option>
+                    <option value="">Sort by popularity</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/shoes.jpeg" alt="" height="100%" width="100%">
+                    <h4>White Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>RS 9999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/black shoes.jpg" alt="">
+                    <h4>Black Go Walk</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 4999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/stylish shoes.jpeg" alt="">
+                    <h4>Premium Black Leather</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 15999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/camel.jpeg" alt="">
+                    <h4>Camel</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 11449</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/inly shoe.jpeg" alt="">
+                    <h4>Fabricates Shoe</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 6449</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/puma sport.jpeg" alt="">
+                    <h4>Puma Sports</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 7999</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/puma red addition.jpeg" alt="">
+                    <h4>Puma Red Addition</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 9999</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/wooodland.jpeg" alt="">
+                    <h4>Woodland</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 5999</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pages">
+                <div class="page">1</div>
+                <div class="page">2</div>
+                <div class="page">3</div>
+                <div class="page">4</div>
+                <div class="page">&#8594;</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="latest-bg">
+        <div class="featuree">
+            <div class="feature-head">
+                <span>Premium Watches </span>
+                <select class="select">
+                    <option value="">Sort: Default</option>
+                    <option value="">Sort by Price</option>
+                    <option value="">Sort by Rating</option>
+                    <option value="">Sort by popularity</option>
+                </select>
+            </div>
+            <div class="row la">
+                <div class="col-4">
+                    <img src="./images/7AA.jpeg" alt="" height="100%" width="100%">
+                    <h4>Rolex 7AA</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>RS 19999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/Rg golden.jpeg" alt="">
+                    <h4>RG Gold 78W</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 14999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/acchi ghadi.jpeg" alt="">
+                    <h4>Old Style</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 15999</p>
+                    </div>
+                </div>
+                <div class="col-4"><img src="./images/rolex_watches_main.jpg" alt="">
+                    <h4>Rolex Main</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 11449</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/Ethos747.jpeg" alt="">
+                    <h4>Ethoes 737C</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 26449</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/mangi ghadi.jpeg" alt="">
+                    <h4>Premiuim Ethos 98C7</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 17999</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/Dayton.jpeg" alt="">
+                    <h4>Rolex Dayton</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 19999</p>
+                    </div>
+
+                </div>
+                <div class="col-4"><img src="./images/Forix 980.jpeg" alt="">
+                    <h4>Forix Limited edition</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-solid fa-star fa-sm"></i><i class="fa-solid fa-star fa-sm"></i><i
+                            class="fa-regular fa-star fa-sm"></i>
+                        <p>Rs 25999</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pages">
+                <div class="page">1</div>
+                <div class="page">2</div>
+                <div class="page">3</div>
+                <div class="page">4</div>
+                <div class="page">&#8594;</div>
+            </div>
+        </div>
+    </div>
+   
+
+
+   
+    <div class="footer-ahead">
+      <div class="footer">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3 style="font-size: 1.3rem; text-decoration: underline;">Download Our App</h3>
+                <p>Download app for android and ios mobile phones</p>
+                <img src="./images/download.png" alt="logo" height="150px" width="350px">
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/Logo Red dart.jpg" alt="logo" height="150px" width="150px">
+                <p>Our Purpose is to Sustainably Make the pleasure and benifit of our accessories to many.</p>
+
+            </div>
+           
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c0ee13f626.js" crossorigin="anonymous"></script>
+
+    <script>
+        var menuitems=document.getElementById("menuitems");
+        menuitems.style.maxHeight="0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight=="0px"){
+                menuitems.style.maxHeight="200px"
+            }else{
+                menuitems.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
